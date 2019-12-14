@@ -2,7 +2,6 @@ import React, { useRef, useCallback, useReducer } from 'react';
 import TodoTemplate from './components/TodoTemplate.js';
 import TodoInsert from './components/TodoInsert.js';
 import TodoList from './components/TodoList.js';
-import { dispatch } from '../../../AppData/Local/Microsoft/TypeScript/3.7/node_modules/rxjs/internal/observable/pairs.js';
 
 function createBulkTodos() {
 	const array = [];
